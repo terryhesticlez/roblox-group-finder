@@ -25,8 +25,8 @@ while True:
                         embed.add_embed_field(name='Description', value=f'"{desc}"') #description to embed
                         embed.add_embed_field(name='Members', value=f'{members}') #adds members to embed
                         embed.add_embed_field(name='Link', value=f'https://www.roblox.com/groups/{ID}') # im getting bored commenting
-                        embed.set_author(name='GFind', icon_url='https://images-ext-2.discordapp.net/external/ExvpqVgJoqrUwoORcZKxOTd50iE2vnNcwF9nlrU8Qms/%3Fsize%3D1024/https/cdn.discordapp.com/icons/799181637405376533/89565089064040e52100ba4aea324604.webp') #stuff
-                        embed.set_footer(text='GFind by S_waraj', icon_url='https://images-ext-2.discordapp.net/external/ExvpqVgJoqrUwoORcZKxOTd50iE2vnNcwF9nlrU8Qms/%3Fsize%3D1024/https/cdn.discordapp.com/icons/799181637405376533/89565089064040e52100ba4aea324604.webp') # stuff
+                        embed.set_author(name='', icon_url='https://images-ext-2.discordapp.net/external/ExvpqVgJoqrUwoORcZKxOTd50iE2vnNcwF9nlrU8Qms/%3Fsize%3D1024/https/cdn.discordapp.com/icons/799181637405376533/89565089064040e52100ba4aea324604.webp') #stuff
+                        embed.set_footer(text='GFind', icon_url='https://images-ext-2.discordapp.net/external/ExvpqVgJoqrUwoORcZKxOTd50iE2vnNcwF9nlrU8Qms/%3Fsize%3D1024/https/cdn.discordapp.com/icons/799181637405376533/89565089064040e52100ba4aea324604.webp') # stuff
                         embed.set_thumbnail(url='https://images-ext-2.discordapp.net/external/ExvpqVgJoqrUwoORcZKxOTd50iE2vnNcwF9nlrU8Qms/%3Fsize%3D1024/https/cdn.discordapp.com/icons/799181637405376533/89565089064040e52100ba4aea324604.webp')
                         webhook.add_embed(embed) #adds the embed to the response
                         response = webhook.execute() # sends to webhook
